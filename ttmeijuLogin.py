@@ -73,7 +73,8 @@ print(seedtable.find_all(href=re.compile("pan.baidu."))[0].parent)
 trlist = seedtable.find_all('tr')
 
 for i in range(2,len(trlist)):
-    print(1,trlist[i])
+    print(i,trlist[i])
+
 
 
 
